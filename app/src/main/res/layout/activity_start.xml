@@ -1,0 +1,87 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    tools:context=".ActivityStart">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/largenativelay"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/largenativelay">
+
+        <LinearLayout
+            android:id="@+id/piclay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nameframe"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/picture"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/piclay"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="#0C0C0C"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Meaning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Name"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Meaning"
+            android:text="" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/largenativelay"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_margin="@dimen/_2sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/admobMediumNative"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_150sdp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

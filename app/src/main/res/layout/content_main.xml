@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/adViewCon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+    <RelativeLayout
+        android:id="@+id/relativeMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/adViewCon"
+        android:background="@color/white"
+        tools:ignore="NotSibling">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/bg"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardadview"
+                android:layout_width="match_parent"
+                app:cardBackgroundColor="@color/white"
+                android:layout_height="62dp">
+
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:background="@drawable/drawerheader" />
+
+            <ImageView
+                android:id="@+id/buttonAllNames"
+                android:layout_width="@dimen/_210sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:background="@drawable/playallnames" />
+
+            <ImageView
+                android:id="@+id/buttonList"
+                android:layout_width="@dimen/_210sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listallnames" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

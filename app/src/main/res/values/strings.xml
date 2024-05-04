@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">99 Names of Allah</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="privacy_policy">What this Privacy Policy Covers protecting your \n privacy is  really important to us. Accordingly re- \n providing  this privacy  policyto exlplain our practices regarding the collection use
+        and disclouser of information that we receive when you use our mobile application,and our services available via apps .
+        Information we use in our service but never collect in some of our Apps we may need to access few permissions or features to provide finctions,but we never collect or store those information like Camera,Photo in your album, cantact SMS etc.
+    take picture and videos we use your devices camera flashlight and require camera permissions Apps will not take photos and videos by itself and pass it on to any third party </string>
+
+
+   <!-- <string name="banner_ad2">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="Interstatial_ad">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="Interstatial_ad2">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>-->
+
+
+  <!--  <string name="banner_ad">ca-app-pub-3304944839418944/6766378279</string>
+    <string name="banner_ad2">ca-app-pub-4874108674122035/9601847377</string>
+    <string name="Interstatial_ad">ca-app-pub-3304944839418944/5593236711</string>
+    <string name="Interstatial_ad2">ca-app-pub-3304944839418944/8817826546</string>
+    <string name="app_id">ca-app-pub-3304944839418944~5644868294</string>-->
+
+    <string name="in_app_purchase_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1LBpSa+v5WpFM5qD6XUhBYaJiVRZuFQrLqE6sgIHhqxKHeAJH5NWc7PeZz+QKsQs4jED3fwMYZfpyxXJNZt4Yy1B2wqP3wqL7IZgP8/mzcR7OogpYLy8wDkZjeAvEdSq9LdXJfzKEWDYdSxJ6jmPsCJvjPeWu1GCxqcW3jCXl/k4tpPHvy5ICw9B31JbKba8R9QSb69Cyy5ru4DyLN4ng4wgfVQJToR96JWRI8s1imghj0YFE/UMg5zakhmQHOqrQvugjp+ffRBFDVPm396mhPzAaGUSGlZ6i7YQZbxSBbgWzNaMDKW0RlG1PpryC1y45UqZvxZtLB3BhoQDiSOfzwIDAQAB
+</string>
+    <string name="product_id">remove_ads</string>
+    <string name="optin_yesbtn">OK</string>
+    <string name="link_text">Link</string>
+    <string name="optin_message">Do you agree with required terms and conditions?</string>
+    <string name="detailed_text">For more detail try this</string>
+    <string name="optin_text">99 Names of Allah is full secure. we are not using any other permission.
+        We do not collect, store or transmit user personal and sensitive data/information For more details please visit our below link.Thank you.</string>
+</resources>

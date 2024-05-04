@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1007300246710",
+    "project_id": "neon-led-keyboard-rgb-colors",
+    "storage_bucket": "neon-led-keyboard-rgb-colors.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007300246710:android:4e52cf277dbd96be47ba17",
+        "android_client_info": {
+          "package_name": "com.asmaulhusna.a99namesofallah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007300246710-56e6kqplajvdcrelhml1pgdv40ot86pp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJyrPYzXPZ8L5TTw7o4n6Z77G0ivTHquY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007300246710-56e6kqplajvdcrelhml1pgdv40ot86pp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

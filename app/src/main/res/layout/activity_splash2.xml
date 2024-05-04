@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/privacy_policy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:gravity="center"
+        android:text="Privacy Policy"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/privacy_policy"
+        android:background="@color/colorAccent" />
+
+    <TextView
+        android:layout_below="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="17dp"
+        android:text="@string/privacy_policy"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom"
+        android:layout_margin="@dimen/_5sdp"
+        android:orientation="horizontal">
+
+        <Button
+            android:textColor="@color/red"
+            android:background="@drawable/roundshape"
+            android:id="@+id/decline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:text="decline" />
+
+        <Button
+            android:textColor="@color/bg_color"
+            android:background="@drawable/roundshape"
+            android:id="@+id/accept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/decline"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:text="Accept" />
+    </LinearLayout>
+</RelativeLayout>
