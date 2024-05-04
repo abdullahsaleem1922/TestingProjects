@@ -30,8 +30,8 @@ public class ActivityListView extends AppCompatActivity {
     ListView list;
     TextView meaning;
     TextView name;
-    RelativeLayout adslay;
-    LinearLayout banner;
+//    RelativeLayout adslay;
+//    LinearLayout banner;
 
     private InterstitialAd interstitialAd;
 
@@ -43,16 +43,16 @@ public class ActivityListView extends AppCompatActivity {
         supportRequestWindowFeature(1);
         setContentView(R.layout.activity_list_view);
 
-        adslay=findViewById(R.id.adslay);
-        banner=findViewById(R.id.bannerAdContainer);
-        if(!BillingUtilsIAP.isPremium())
-        {
-            AdmobFbBannerUtil.INSTANCE.loadAdmobBannerOrFbBanner(this,banner,getString(R.string.benner_ad));
-        }
-        else
-        {
-            adslay.setVisibility(View.GONE);
-        }
+//        adslay=findViewById(R.id.adslay);
+//        banner=findViewById(R.id.bannerAdContainer);
+//        if(!BillingUtilsIAP.isPremium())
+//        {
+//            AdmobFbBannerUtil.INSTANCE.loadAdmobBannerOrFbBanner(this,banner,getString(R.string.benner_ad));
+//        }
+//        else
+//        {
+//            adslay.setVisibility(View.GONE);
+//        }
         this.list = (ListView) findViewById(R.id.ListView);
         this.adapter = new ActivityListViewAdapter(getApplicationContext());
         this.list.setAdapter(this.adapter);
@@ -65,7 +65,6 @@ public class ActivityListView extends AppCompatActivity {
                 Intent intent = new Intent(ActivityListView.this,ActivityListData.class);
                 intent.putExtra("Position", i);
                 startActivity(intent);
-
             }
         });
     }

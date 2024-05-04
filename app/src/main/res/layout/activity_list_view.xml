@@ -12,7 +12,6 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:scaleType="centerCrop"
-        android:src="@drawable/uperdesignbg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,7 +22,6 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:scaleType="centerCrop"
-        android:src="@drawable/designimgbg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -32,7 +30,6 @@
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_50sdp"
-        app:layout_constraintBottom_toTopOf="@+id/g1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -42,7 +39,6 @@
             android:layout_height="match_parent"
             android:layout_marginStart="@dimen/_10sdp"
             android:padding="@dimen/_7sdp"
-            android:src="@drawable/backarrow"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
